@@ -1,0 +1,5 @@
+.card{
+    position: sticky;
+    overflow-y: scroll;
+    background-color: rgb(73, 34, 109);
+}

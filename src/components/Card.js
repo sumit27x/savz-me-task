@@ -6,10 +6,10 @@ import { AiTwotoneStop } from "react-icons/ai";
 
 function Card() {
   return (
-    <div className="flex items-center justify-between py-20 px-5">
+    <div className=" items-center justify-center py-20 px-5 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
       {/* =============================================================================================== */}
 
-      <div className="w-64 bg-white h-80 cursor-pointer shadow-2xl rounded-3xl filter grayscale-70">
+      <div className="w-60 bg-white h-80 cursor-pointer shadow-2xl rounded-3xl filter grayscale-70 mb-2">
         <div className="flex items-center justify-between px-4 py-1 border-b-1  text-gray-600 bg-gray-300 rounded-tl-3xl rounded-tr-3xl">
           <div className="flex items-center gap-1 text-gray-600">
             <AiTwotoneStop fontSize="20px" />
@@ -24,7 +24,7 @@ function Card() {
               <p className="font-bold "> 1.94 </p>Payout
             </h5>
           </div>
-          <div className=" flex flex-col p-5 border-2 border-pink-500 rounded-lg ">
+          <div className=" flex flex-col p-3 border-2 border-pink-500 rounded-lg ">
             <h5 className="font-bold text-xs">CLOSED PRICE</h5>
             <div className="flex justify-between items-center gap-2 py-1">
               <h3 className="text-pink-500 font-bold">$228.5364</h3>
@@ -53,8 +53,7 @@ function Card() {
 
       {/* =============================================================================================== */}
 
-
-      <div className="w-64 bg-white h-80 cursor-pointer shadow-2xl rounded-3xl filter grayscale-70">
+      <div className="w-60 bg-white h-80 cursor-pointer shadow-2xl rounded-3xl filter grayscale-70 mb-2">
         <div className="flex items-center justify-between px-4 py-1 border-b-1  text-gray-600 bg-gray-300 rounded-tl-3xl rounded-tr-3xl">
           <div className="flex items-center gap-1 text-gray-600">
             <AiTwotoneStop fontSize="20px" />
@@ -69,7 +68,7 @@ function Card() {
               <p className="font-bold "> 1.76 </p>Payout
             </h5>
           </div>
-          <div className=" flex flex-col p-5 border-2 border-pink-500 rounded-lg ">
+          <div className=" flex flex-col p-3 border-2 border-pink-500 rounded-lg ">
             <h5 className="font-bold text-xs">CLOSED PRICE</h5>
             <div className="flex justify-between items-center gap-2 py-1">
               <h3 className="text-pink-500 font-bold">$228.9473</h3>
@@ -98,8 +97,7 @@ function Card() {
 
       {/* =============================================================================================== */}
 
-
-      <div className="w-64 bg-white h-80 cursor-pointer shadow-2xl rounded-3xl">
+      <div className="w-60 bg-white h-80 cursor-pointer shadow-2xl rounded-3xl mb-2">
         <div className="flex items-center justify-between px-4 py-1 border-b-4 border-purple-600 text-purple-600">
           <div className="flex items-center gap-1 text-purple-600">
             <RiPlayCircleLine fontSize="20px" />
@@ -114,7 +112,7 @@ function Card() {
               <p className="font-bold "> 2.15x </p>Payout
             </h5>
           </div>
-          <div className=" flex flex-col p-5 border-2 border-pink-500 rounded-lg ">
+          <div className=" flex flex-col p-3 border-2 border-pink-500 rounded-lg ">
             <h5 className="font-bold text-xs">LAST PRICE</h5>
             <div className="flex justify-between items-center gap-2 py-1">
               <h3 className="text-pink-500 font-bold">$228.5332</h3>
@@ -143,7 +141,7 @@ function Card() {
 
       {/* =============================================================================================== */}
 
-      <div className="w-64 bg-white h-80 cursor-pointer shadow-2xl rounded-3xl">
+      <div className="w-60 bg-white h-80 cursor-pointer shadow-2xl rounded-3xl mb-2">
         <div className="flex items-center justify-between px-4 py-1 border-b text-white bg-purple-600 rounded-tl-3xl rounded-tr-3xl">
           <div className="flex items-center gap-1 text-white">
             <RiPlayCircleLine fontSize="20px" />
@@ -160,7 +158,7 @@ function Card() {
           </div>
 
           {/* <div className=" flex flex-col p-5 border-2 bg-white  rounded-lg bg-gradient-to-r from-indigo-600 to-pink-500 "> */}
-          <div className=" flex flex-col p-5 border-2 border-pink-500 bg-white rounded-lg  ">
+          <div className=" flex flex-col p-3 border-2 border-pink-500 bg-white rounded-lg  ">
             <div className="flex justify-between items-center text-purple-900 gap-4  ">
               <h4 className="font-bold text-sm">Prize Pool:</h4>
               <h4 className="font-bold text-sm">8.5143 BNB</h4>
@@ -184,7 +182,7 @@ function Card() {
 
       {/* ==================================================================================================== */}
 
-      <div className="w-64 relative bg-white h-65 cursor-pointer shadow-2xl rounded-3xl">
+      <div className="w-60 relative bg-white h-65 cursor-pointer shadow-2xl rounded-3xl mb-2">
         <div className="flex items-center justify-between px-3 py-1 text-purple-900 bg-gray-300 rounded-tl-3xl rounded-tr-3xl">
           <div className="flex items-center gap-1 text-purple-900">
             <MdAccessTime fontSize="20px" />

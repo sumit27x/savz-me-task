@@ -12,19 +12,19 @@ import Coin from "./../assets/bitcoin.png";
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-between py-10 px-5">
+    <div className="flex relative items-center justify-between py-10 px-12">
       <div className="flex items-center justify-center gap-3 bg-white rounded-2xl py-1 px-3 cursor-pointer ml-10">
         <Image
           src={Coin}
           alt="card"
           style={{ width: "100px" }}
-          className="w-20 absolute left-0"
+          className="w-20 absolute left-7 top-4"
         />
         <h3 className="font-bold text-xl text-purple-900">BNBUSD</h3>
         <h5 className="text-xs font-bold text-purple-900">$228.5332</h5>
       </div>
 
-      <div className="flex items-center justify-center text-green-500 gap-16 bg-white rounded-2xl p-1 cursor-pointer">
+      <div className="flex items-center justify-center text-green-500 gap-20 bg-white rounded-2xl p-1 cursor-pointer">
         <FaArrowLeft fontSize="20px" />
         <Image
           src={Card}
@@ -35,18 +35,18 @@ function Navbar() {
         <FaArrowRight fontSize="20px" />
       </div>
 
-      <Image
-        src={Clock}
-        alt="clock"
-        style={{ width: "70px" }}
-        className="absolute right-40"
-      />
-      <div className="flex items-center gap-2 cursor-pointer">
-        <div className="flex items-center  bg-white rounded-2xl gap-1 py-1 px-7 cursor-pointer mr-5">
+      <div className="flex relative items-center gap-2 cursor-pointer">
+        <div className="flex relative items-center  bg-white rounded-2xl gap-1 py-1 px-3 cursor-pointer">
           <h3 className="font-bold text-xl text-purple-700 text-start">
             00:38
           </h3>
-          <h5 className="text-xs font-bold text-purple-900 pr-4">5m</h5>
+          <h5 className="text-xs font-bold text-purple-900 pr-14">5m</h5>
+          <Image
+        src={Clock}
+        alt="clock"
+        style={{ width: "70px" }}
+        className="absolute right-0"
+      />
         </div>
 
         <div className="p-2 rounded-xl text-white bg-purple-800 shadow-2xl">
